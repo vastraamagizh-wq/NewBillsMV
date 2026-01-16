@@ -1,0 +1,54 @@
+
+{
+  "short_name": "MagizhVastraa",
+  "name": "Magizh Vastraa Billing Suite",
+  "description": "Magizh Vastraa Billing Suite is a professional-grade retail management application designed specifically for clothing stores. It features real-time inventory tracking, mobile-first sales billing, PDF invoice generation, and seamless WhatsApp sharing for customer convenience. Built to work offline and provide high-performance billing on Android mobile devices.",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3514/3514491.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3514/3514491.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&q=80&w=1000",
+      "type": "image/jpeg",
+      "sizes": "1000x600",
+      "form_factor": "wide",
+      "label": "Professional Billing Dashboard"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1556740734-792300ddad4a?auto=format&fit=crop&q=80&w=600&h=1000",
+      "type": "image/jpeg",
+      "sizes": "600x1000",
+      "form_factor": "narrow",
+      "label": "Mobile Billing Interface"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "./",
+  "theme_color": "#4f46e5",
+  "categories": ["business", "finance", "productivity"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Quick Billing",
+      "short_name": "Bill",
+      "url": "./index.html#billing",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/3514/3514491.png", "sizes": "192x192" }]
+    }
+  ]
+}

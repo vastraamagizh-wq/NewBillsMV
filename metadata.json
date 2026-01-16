@@ -1,0 +1,7 @@
+{
+  "name": "Magizh Vastraa Billing",
+  "description": "A comprehensive mobile-responsive billing, inventory, and customer management system for Magizh Vastraa.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
